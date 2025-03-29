@@ -1,0 +1,75 @@
+.motor-wrapper {
+    max-width: 700px;
+    margin: 3rem auto;
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    color: #f1f5f9;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: #38bdf8;
+  }
+  
+  .dropzone {
+    border: 2px dashed #64748b;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    background-color: #0f172a;
+    cursor: pointer;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #a5f3fc;
+    cursor: pointer;
+  }
+  
+  .selected {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #fef08a;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #059669;
+  }
+  
+  .upload-status {
+    margin-top: 1rem;
+    font-style: italic;
+  }
+  
+  .result-box {
+    background-color: #0f172a;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    border: 1px solid #334155;
+  }
+  
+  .result-box p {
+    margin: 5px 0;
+  }
+  

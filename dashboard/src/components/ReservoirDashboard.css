@@ -1,0 +1,74 @@
+.res-dashboard {
+    padding: 1rem;
+  }
+  
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    background-color: #0f172a;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid #334155;
+  }
+  
+  .filter-item {
+    display: flex;
+    flex-direction: column;
+    color: #cbd5e1;
+  }
+  
+  .filter-item label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .filter-item select,
+  .filter-item input[type="range"] {
+    background: #1e293b;
+    color: #f1f5f9;
+    padding: 0.5rem;
+    border: 1px solid #475569;
+    border-radius: 6px;
+  }
+  
+  .res-card {
+    background-color: #1e293b;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .res-card h2 {
+    margin-bottom: 1rem;
+    color: #38bdf8;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  thead {
+    background-color: #334155;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    border: 1px solid #475569;
+    text-align: center;
+  }
+  
+  tbody tr:hover {
+    background-color: #1f2937;
+  }
+  
+  .placeholder {
+    font-style: italic;
+    color: #94a3b8;
+    margin-top: 1rem;
+  }
+  
