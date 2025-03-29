@@ -54,8 +54,7 @@ project-root/ ├── data/ │ └── fetch_reservoir_data.py # Publishes 
 
 ## 🚀 How to Run Locally
 
-### 1. Start MQTT Broker
-```bash
+Start MQTT Broker
 cd mqtt_broker
 docker-compose up -d
 2. Run Reservoir Data Publisher
